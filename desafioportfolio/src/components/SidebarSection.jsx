@@ -2,6 +2,15 @@ import React from "react";
 import { FaFacebook, FaLinkedin, FaGithub, FaArrowDown } from "react-icons/fa";
 import MyPhoto from "../assets/NathanSodre.jpg";
 import "../App.css";
+import Typewriter from "typewriter-effect";
+
+<Typewriter
+  options={{
+    strings: ["Hello", "World"],
+    autoStart: true,
+    loop: true,
+  }}
+/>;
 
 const SidebarSection = () => {
   return (
@@ -30,7 +39,16 @@ const SidebarSection = () => {
         </a>
       </div>
       <div className="intro">
-        <h1>Olá, eu sou o Nathan Sodré</h1>
+        <h1>
+          <Typewriter
+            options={{
+              strings: ["Olá eu sou o Nathan Sodré,"],
+              autoStart: true,
+              pauseFor: 30000,
+              loop: true,
+            }}
+          />
+        </h1>
         <p className="subtitle">Desenvolvedor Full-Stack</p>
         <div>
           <button className="opentowork">🟢 #OpenToWork</button>

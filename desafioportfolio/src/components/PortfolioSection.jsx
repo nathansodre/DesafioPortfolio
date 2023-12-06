@@ -32,7 +32,7 @@ const PortfolioSection = () => {
         <a href="#">Ver detalhes</a>
       </div>
       <div className="card">
-        <img src="../../../portfolio.png" alt="Imagem 2" />
+        <img src="./../../portfolio.png" alt="Imagem 2" />
         <h3>Meu portfólio</h3>
         <p className="tags">React.js</p>
         <a href="#">Ver detalhes</a>
